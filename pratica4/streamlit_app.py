@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from exercicios.pratica4.db_utils import (
+from db_utils import (
     get_mongo_db,
     get_race_sessions,
     get_session_details,

@@ -196,7 +196,7 @@ with tab1:
     st.subheader("Visualização Geoespacial")
     
     # Importar mapa
-    from exercicios.pratica7.smart_city.dashboard.pages.map_view import render_map
+    from pages.map_view import render_map
     
     # Buscar dados
     if selected_categories:
@@ -216,7 +216,7 @@ with tab2:
     st.subheader("Análises Estatísticas")
     
     # Importar analytics
-    from exercicios.pratica7.smart_city.dashboard.pages.analytics import render_analytics
+    from pages.analytics import render_analytics
     
     # Buscar dados
     analytics_data = fetch_analytics()

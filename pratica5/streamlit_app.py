@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import exercicios.pratica5.db_utils as db_utils
+import db_utils as db_utils
 
 # Configuração da página
 st.set_page_config(
